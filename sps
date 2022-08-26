@@ -45,7 +45,7 @@ do
 #if [[ $pnumber -gt $number ]] ; then
 #    echo "The number you entered is higher than the amount of playlists available, which is $number" 
 #fi
-#	break
+#break
 done
 open -a spotify ${arr[pnumber-1]/?/}
 exit
